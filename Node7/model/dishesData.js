@@ -6,6 +6,6 @@ const DishesSchema = new mongoose.Schema({ code: String, name: String,
     price :Number
  });
 const dishes = mongoose.model('dishes', DishesSchema);
-
+//remark
 return dishes;
     };
